@@ -1,0 +1,22 @@
+span.border.border-primary{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    color: black;
+    /* font-family: 'Dancing Script', cursive; */
+}
+a{
+    text-decoration: none;
+}
+div.home-component{
+    display: block;
+    text-align: center
+}
+span.border.border-primary:hover{
+    background-color: white;
+    border: solid 1px blue!important
+}

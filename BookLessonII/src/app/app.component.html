@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-light btn btn-outline-dark">
+
+    <form class="form-inline">
+        <a routerLink="/home"><button class="btn btn-outline-primary" type="button">Home</button></a>
+        <a routerLink="/home/library"><button class="btn btn-outline-primary" type="button">Library</button></a>
+        <a routerLink="/home/license"><button class="btn btn-outline-primary" type="button">License</button></a>
+        <div class="search_fill">
+            <input class="form-control mr-sm-2" type="search" placeholder="Looking ..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </div>
+    </form>
+</nav>
+<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark text-center d-block">
+    <span style="color: white">This is Footer!</span> 
+</nav>

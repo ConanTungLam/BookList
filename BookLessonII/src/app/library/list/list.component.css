@@ -1,0 +1,14 @@
+table{
+  width: 100%;
+}
+table.table.table-striped th{
+  background-color:  lightblue;
+  font-size: 14px;
+  vertical-align: middle;    
+}
+table.table.table-striped td{
+  vertical-align: middle
+}
+table.table.table-striped tr:hover{
+  background-color: lightyellow
+}

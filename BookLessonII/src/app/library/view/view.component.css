@@ -1,0 +1,6 @@
+td{
+    min-width: 120px;
+}
+.btn.disabled, .btn:disabled{
+    opacity: 1;
+}

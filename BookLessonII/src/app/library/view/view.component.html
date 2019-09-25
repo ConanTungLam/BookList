@@ -1,0 +1,48 @@
+<div class="table-list-container">
+    <div class="btn btn-warning">LIBRARY LIST VIEW</div>
+    <table *ngIf="book" class="text-left" style="margin: 10px 20px">
+        <tr>
+            <td>
+                <button class="btn btn-dark btn-sm" disabled>ID: </button>
+            </td>
+            <td>
+                <span *ngIf="book.id < 10">0{{book.id}}</span>
+                <span *ngIf="book.id >= 10">{{book.id}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-dark btn-sm" disabled>NAME: </button>
+            </td>
+            <td>
+                {{book.name}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-dark btn-sm" disabled>DESCRIPTION: </button>
+            </td>
+            <td>
+                {{book.description}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-dark btn-sm" disabled>PRICE: </button>
+            </td>
+            <td>
+                {{book.price}} USD
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-dark btn-sm" disabled>AMOUNT: </button>
+            </td>
+            <td>
+                <span *ngIf="book.amount <= 1">{{book.amount}} book</span>
+                <span *ngIf="book.amount > 1">{{book.amount}} books</span>
+
+            </td>
+        </tr>
+    </table>
+</div>

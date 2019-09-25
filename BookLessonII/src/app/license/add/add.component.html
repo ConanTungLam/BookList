@@ -1,0 +1,40 @@
+<div class="btn btn-warning">ADD LICENSE</div>
+<div class="table-add-license-container">
+    <form #addlicense="ngForm" (ngSubmit)="onSubmit(addlicense.value)">
+        <!-- <div class="form-group">
+            <label><button class="btn btn-dark btn-sm" disabled>ID:</button></label>
+            <input type="text" minlength="2" required class="form-control" name="id"
+                placeholder="Please input new id..." ngModel #id="ngModel" />
+            <div *ngIf="id.errors && (id.dirty || id.touched)" class="alert">
+                <div [hidden]="!id.errors.required">
+                    ID can not be blank.
+                </div>
+                <div [hidden]="!id.errors.minlength">
+                    ID must be at least 2 characters.
+                </div>
+            </div>
+        </div> -->
+        <div class="form-group">
+            <label><button class="btn btn-dark btn-sm" disabled>COUNTRY:</button></label>
+            <input type="text" required class="form-control" name="name" placeholder="Please input new country..."
+                ngModel #name="ngModel" />
+            <div *ngIf="name.errors && (name.dirty || name.touched)" class="alert">
+                COUNTRY can not be be blank.
+            </div>
+        </div>
+        <div class="form-group">
+            <label><button class="btn btn-dark btn-sm" disabled>DESCRIPTION:</button></label>
+            <textarea type="text" rows="3" class="form-control" name="description"
+                placeholder="Please input new description..." ngModel></textarea>
+        </div>
+        <div class="form-group">
+            <label><button class="btn btn-dark btn-sm" disabled>TIMES:</button></label>
+            <input type="text" required class="form-control" name="time" placeholder="Please input new times..." ngModel
+                #time="ngModel" />
+            <div *ngIf="time.errors && (time.dirty || time.touched)" class="alert">
+                TIMES can not be blank.
+            </div>
+        </div>
+        <button type="submit" [disabled]="!addlicense.valid" class="btn btn-primary" title="Button only Active after validated.">Save</button>
+    </form>
+</div>

@@ -1,0 +1,142 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Truyen Kieu",
+      "description": "This descrition for book.",
+      "price": "800",
+      "amount": "30"
+    },
+    {
+      "id": 2,
+      "name": "Chi Pheo",
+      "description": "This descrition for book.",
+      "price": "220",
+      "amount": "80"
+    },
+    {
+      "id": 3,
+      "name": "Luc Van Tien",
+      "description": "This descrition for book.",
+      "price": "650",
+      "amount": "33"
+    },
+    {
+      "id": 4,
+      "name": "Chiec Luoc Nga",
+      "description": "This descrition for book.",
+      "price": "220",
+      "amount": "54"
+    },
+    {
+      "id": 5,
+      "name": "Song",
+      "description": "This descrition for book.",
+      "price": "75",
+      "amount": "12"
+    },
+    {
+      "id": 6,
+      "name": "Nam Quoc Son Ha",
+      "description": "This descrition for book.",
+      "price": "300",
+      "amount": "45"
+    },
+    {
+      "id": 7,
+      "name": "Nguoi Dua Thu",
+      "description": "This descrition for book.",
+      "price": "580",
+      "amount": "66"
+    },
+    {
+      "id": 8,
+      "name": "Nguoi Me",
+      "description": "This descrition for book.",
+      "price": "900",
+      "amount": "82"
+    },
+    {
+      "id": 9,
+      "name": "Nguoi Dua Thu",
+      "description": "This descrition for book.",
+      "price": "520",
+      "amount": "55"
+    },
+    {
+      "id": 10,
+      "name": "Luu Vong",
+      "description": "This descrition for book.",
+      "price": "1500",
+      "amount": "74"
+    }
+  ],
+  "license": [
+    {
+      "id": 1,
+      "name": "USA",
+      "description": "This license for book.",
+      "time": "30"
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "description": "This license for book.",
+      "time": "60"
+    },
+    {
+      "id": 3,
+      "name": "VietNam",
+      "description": "This license for book.",
+      "time": "22"
+    },
+    {
+      "id": 4,
+      "name": "ThaiLand",
+      "description": "This license for book.",
+      "time": "111"
+    },
+    {
+      "id": 5,
+      "name": "China",
+      "description": "This license for book.",
+      "time": "75"
+    },
+    {
+      "id": 6,
+      "name": "Singapore",
+      "description": "This license for book.",
+      "time": "45"
+    },
+    {
+      "id": 7,
+      "name": "Mexico",
+      "description": "This license for book.",
+      "time": "58"
+    },
+    {
+      "id": 8,
+      "name": "Korea",
+      "description": "This license for book.",
+      "time": "90"
+    },
+    {
+      "id": 9,
+      "name": "Spanish",
+      "description": "This license for book.",
+      "time": "15"
+    },
+    {
+      "id": 10,
+      "name": "Cuba",
+      "description": "This license for book.",
+      "time": "150"
+    },
+    {
+      "id": 11,
+      "name": "wff",
+      "description": "",
+      "time": "wfwefwe"
+    }
+  ]
+}

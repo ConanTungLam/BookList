@@ -1,0 +1,10 @@
+.edit-component{
+    text-align: left;
+    padding: 20px
+}
+label{
+    min-width: 350px;
+}
+.btn.disabled, .btn:disabled{
+    opacity: 1;
+}

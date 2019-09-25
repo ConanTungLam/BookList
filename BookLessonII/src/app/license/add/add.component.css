@@ -1,0 +1,33 @@
+.table-add-license-container{
+    text-align: left;
+    padding: 20px; 
+}
+
+.btn.disabled, .btn:disabled{
+    opacity: 1;
+}
+
+input, textarea{
+    max-width: 350px;
+}
+::placeholder {
+    opacity: 0.4;
+  }
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+.ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
+.alert{
+  max-width: 350px;
+  padding: 2px 5px;
+  margin-top: 3px;
+  font-size: 80%;
+  background-color: rgb(241, 50, 50);
+  color: white;
+}
+button[type="submit"]:disabled{
+  opacity: 0.7;
+}
