@@ -17,7 +17,7 @@ export class LicenseService {
 
   constructor(private http: HttpClient) { }
 
-  dataUri: any = "http://localhost:3000/license/"
+  dataUri: any = "http://localhost:3001/license/"
 
   getLicenseList(): Observable<any> {
     return this.http.get(this.dataUri);
