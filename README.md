@@ -1,3 +1,3 @@
 # BookList
 
-Learning about HTTP service and module.
+Learning about HTTP service and modules.
